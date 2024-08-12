@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: kong-portal-oidc-configuration
+  namespace: kong-datamigration
+data:
+  portal_auth_conf: >-
+    'check portal_auth_conf.json'
+type: Opaque

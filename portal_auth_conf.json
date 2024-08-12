@@ -1,0 +1,47 @@
+{
+    "issuer": "https://pickles.oktapreview.com/oauth2/default",
+    "consumer_claim": [
+        "email",
+        "user.login"
+    ],
+    "client_id": [
+        "redacted"
+    ],
+    "client_secret": [
+        "redacted"
+    ],
+    "ssl_verify": false,
+    "leeway": 1000,
+    "redirect_uri": [
+        "https://kongportal.dev2.pickles.com.au/default/auth"
+    ],
+    "login_redirect_uri": [
+        "https://kongportal.dev2.pickles.com.au/default"
+    ],
+    "logout_methods": [
+        "GET"
+    ],    
+    "logout_query_arg": "logout",
+    "logout_redirect_uri": [
+        "https://kongportal.dev2.pickles.com.au/default"
+    ],
+    "forbidden_redirect_uri": [
+        "https://kongportal.dev2.pickles.com.au"
+    ],
+    "scopes": [
+        "openid",
+        "profile",
+        "email",
+        "offline_access"
+    ],
+    "session_cookie_domain": ".icurity.cloud",
+    "login_redirect_mode": "query",
+    "login_action": "redirect",
+    "consumer_by": [
+        "username",
+        "custom_id",
+        "id"
+    ],
+    "downstream_id_token_header": "id-token",    
+    "downstream_access_token_header": "access-token"
+}
