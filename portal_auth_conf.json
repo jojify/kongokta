@@ -13,17 +13,17 @@
     "ssl_verify": false,
     "leeway": 1000,
     "redirect_uri": [
-        "https://kongportal.dev2.pickles.com.au/default/auth"
+        "https://kongportal.dev2.pickles.com.au/api/default/auth"
     ],
     "login_redirect_uri": [
-        "https://kongportal.dev2.pickles.com.au/default"
+        "https://kongportal.dev2.pickles.com.au/default/login"
     ],
     "logout_methods": [
         "GET"
     ],    
     "logout_query_arg": "logout",
     "logout_redirect_uri": [
-        "https://kongportal.dev2.pickles.com.au/default"
+        "https://kongportal.dev2.pickles.com.au/default/login"
     ],
     "forbidden_redirect_uri": [
         "https://kongportal.dev2.pickles.com.au"
@@ -34,7 +34,7 @@
         "email",
         "offline_access"
     ],
-    "session_cookie_domain": ".icurity.cloud",
+    "session_cookie_domain": ".pickles.com.au",
     "login_redirect_mode": "query",
     "login_action": "redirect",
     "consumer_by": [
